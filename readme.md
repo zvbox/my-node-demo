@@ -1,1 +1,1 @@
-THis is readme file
+This is sample project to demo express and node.js

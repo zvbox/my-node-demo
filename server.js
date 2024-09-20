@@ -13,6 +13,10 @@ app.get('/courseInfo', (req, res) => {
    res.send('COMP229 Web App Development')
 })
 
+app.get('/profInfo', (req, res) => {
+   res.send('Viktor')
+})
+
 app.listen(3000);
 console.log('Server running at http://localhost:3000/');
 module.exports = app;
